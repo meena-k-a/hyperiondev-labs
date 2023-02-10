@@ -1,0 +1,21 @@
+START
+1. Request user a number 
+2. store that value in a variable 'n'
+3. store 0 in variable 'count', 'previous'
+4. print out value in 'previous' 
+5. increment 'previous' by 1 and store in variable next
+6. if count less than n then
+		add previous and next variables and store answer in temp variable
+		print out value in temp.
+		store next value in previous variable
+		store temp value in next variable
+		increment count variable by 1
+		repeat this step until count equals 'n' 	
+END
+		
+		
+		
+		
+		
+		
+		
