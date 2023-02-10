@@ -1,0 +1,10 @@
+START
+1. enter 4 numbers 
+2. Create a set of 4 numbers as entered
+3. for each index of the set do following step
+		for each values in the set with each value in this index 
+			if value of first set is greater than the value of the second index 
+			swap the values 
+4. print all values of the set.			
+
+END
