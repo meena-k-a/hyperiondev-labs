@@ -9,20 +9,20 @@ START
 			repeat step3
 4.	else 
 		exit from loop
-5. diplay the largest number
+5. display the largest number
 END
 
 -----------------------------------------------------------------
 
-Algorithm 2- Find avarage a given numbers
+Algorithm 2- Find average a given numbers
 
 START
 1. set sum and count as zero
 2. read a number until a negative number given by user
 	if number is less than 0
 		add this number to sum and assign it to sum variable
-		incriment count by 1
-3. caliculate sum divide by count and assign it to answer
+		increment count by 1
+3. calculate sum divide by count and assign it to answer
 4. print the answer
 END
 
@@ -34,7 +34,7 @@ START
 1. Request user to input 2 values as X and Y respectively
 2. Add these values and set that value as S
 3. half  the S value and set result as A 
-4. multilpy X and Y and set  result as P
+4. multiply X and Y and set  result as P
 5. Display S,A,P
 END
 
