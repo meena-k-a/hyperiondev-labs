@@ -1,0 +1,24 @@
+Algorithm 1:
+
+START
+1. 	Request user to input their Name
+2.  Store their name in a variable first_name.
+3.  Print out "Hello World! I am " and first_name.
+END
+---------------------------------------------------------
+
+Algorithm 2:
+
+START
+1.	Request user to enter their age.
+2. 	store that value in a variable age.
+3. 	if age is greater than or equal to 18 then
+		print out "you are old enough".
+		go to step 4
+	else if age is greater than or equal to 16 then
+		print out "Almost there".
+		go to step 4
+	else 
+		print out "Your are just too young".
+4.	EXit the program.		
+END
