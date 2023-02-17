@@ -1,0 +1,39 @@
+.col-md-9{
+    background-color: aliceblue;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+}
+
+.col-md-3{
+    background-color: aliceblue;
+    border-style: double;
+    border-color: blue;
+}
+
+.col-md-8{
+    background-color: aliceblue;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+}
+.col-md-4{
+    background-color: blanchedalmond;
+    border-style: double;
+    border-color: blue;
+}
+
+.col-md-2{
+    
+    background-color: cornsilk;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    transition: transform .2s;
+   }
+img:hover{
+    transform: scale(1.5);
+}
