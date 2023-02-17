@@ -1,0 +1,18 @@
+.col-md-8 {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.col-md-4{
+    background-color: bisque;
+}
+
+.col-md-6{
+    text-align: center;
+    border-color: blue;
+}
+
+.col-md-12{
+    text-align: center;
+    background-color: aquamarine;
+}
