@@ -1,0 +1,41 @@
+Q1. Define each of the following terms:
+    a) Data 
+    Ans: Data is nothing but raw facts. 
+        For example Employee ID , Name, email id, Contact number, Address, salary etc are the raw facts or data of an employee.
+
+    b) Field
+    Ans: A field is a single character or a group of characters that have a specific meaning. It is used to define and store data.
+
+    c) Record
+    Ans: A record is a logically connected set of one or more fields that describe a person, place, or thing.
+
+    d) File
+    Ans: File is a collection of related records.
+
+Q2. What is a DBMS and what are its advantages?
+Ans: A database management system is a software tool used to create and manage one or more databases,
+     offering an easy way to create a database, update tables,retrieve information, and enhance data.
+     advantages:
+     -Improved data sharing and data security.
+     -Effective data integration
+     -consistent, reliable data 
+     -data that complies with privacy regulations
+     -Increased productivity
+     -Better decision making 
+
+Q3. Explain the deference between the data and information.
+Ans: 1. Data is an individual unit that contain raw facts which do not carry any specific meaning. 
+        Information is a group of data that collectively carries a logical meaning.
+     2. Data doesn't depends on information, where as 
+        information depends on data.
+
+Q4. What is metadata?
+Ans: Meta data is data that provides information about other data .
+    example: the column headers in a spreadsheet, no of rows and columns...etc
+
+Q5. Given the file below, answer the following questions
+    e)How many records does the file contain?
+    Ans: 4 Records 
+
+    f)How many Fields are there per record?
+    ans: 5 fields per record. (project_code,project_manager, Manager_phone, Manager_address,Project_bid_price)
