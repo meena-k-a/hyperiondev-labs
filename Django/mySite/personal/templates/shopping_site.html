@@ -1,0 +1,119 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--CSS only-->
+        <link rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="{%static 'shopping_site_styles.css'%}">        
+        <title>Shopping Cart Site</title>
+    </head>
+    <body>
+        <div class = "row">
+            <div class="col-md-9">                
+                <h1>Shopping Cart</h1>
+                <h4>click -> buy -> receive</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="{%static 'assets/shopping-cart-logo.jpg'%}" height="100" width="100">
+            </div>
+        </div>
+    
+        <div class = "row">
+            <div class="col-md-2">
+                <img  title="Blue Jacket" src="{%static 'assets/Blue_Denim_Jacket.jfif' %}" alt="Denim Jacket" width="100" height="100"><br>
+                Blue Denim Jacket<br>
+                £15 <br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">    
+                <img  title="Denim Jeans" src="{%static 'assets/Denim_Jeans.jfif' %}" alt="Denim Jeans"><br>
+                Denim Jeans<br>
+                £20 <br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                <img  title="Denim Shorts" src="{%static 'assets/Denim_shorts.jfif' %}" alt="Denim Shorts"><br>
+                Denim Shorts<br>
+                £9 <br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">   
+                <img  title="Denim Skirts" src="{%static 'assets/Denim_skirt.jfif' %}" alt="Denim Skirts"><br>
+                Denim Skirts<br>
+                £10 <br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                <img  title="T Shirt" src="{%static 'assets/T_shirt.jfif' %}" alt="Shirt"><br>
+                T Shirt (different Colors)<br>
+                £10 <br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <img  title="Yellow Shoes" src="{%static 'assets/yellow_shoes.jfif' %}" alt="Yellow Shoes"><br>
+                Yellow Shoes<br>
+                £10<br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                    <img  title="Blue Shoes" src="{%static 'assets/shoes.jfif' %}" alt="Blue Shoes"><br>
+                    Blue Shoes<br>
+                    £10<br>
+                    <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                <img  title="Black Shoes" src="{%static 'assets/Black_shoes.jfif' %}" alt="Black Shoes"><br>
+                Black Shoes<br>
+                £10<br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                <img  title="White Shoes" src="{%static 'assets/white_shoes.jfif' %}" alt="white Shoes"><br>
+                White Shoes<br>
+                £10<br>
+                <button>Buy</button>
+            </div>
+            <div class="col-md-2">
+                <img  title="Red Shoes" src="{%static 'assets/red_shoes.jfif' %}" alt="Red Shoes"><br>
+                Red Shoes<br>
+                £10<br>
+                <button>Buy</button>
+            </div>
+            
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form action="">
+                    <h3>Contact Form</h3>
+                    Please enter your Contact details here <br>
+                    Name <input type="text"> <br>
+                    Email <input type="text"> <br>
+                    Phone <input type="text"> <br>
+                    Address <input type="text"> <br>
+                    <button>Submit Form</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <img src="{%static 'assets/shopping-cart-logo.jpg' %}" height="72" width="72">
+                <br><button>Login</button><button>Register</button>
+            </div>
+        </div>       
+    </body>
+</html>
