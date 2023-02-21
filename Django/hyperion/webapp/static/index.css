@@ -1,0 +1,33 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+#div_section{
+    display: grid;
+}
+header{
+    grid-column: 1/13;
+    grid-row: 1;
+    background-color: aliceblue;
+    text-align: center;
+}
+section{
+    grid-column: 1/9;
+    grid-row: 2;
+    padding: 4px;
+    background-color:lightgoldenrodyellow;
+    border: 1px inset lightgray;
+}
+aside{
+    grid-column: 9/13;
+    grid-row: 2;
+    padding: 4px;
+    background-color: blanchedalmond;
+    border: 1px inset lightgray;
+}
+footer{
+    grid-column: 1/13;
+    grid-row: 3;
+    background-color: aliceblue;
+    text-align: center;
+}
