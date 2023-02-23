@@ -1,3 +1,5 @@
+''' This program is all about usage of sqlite library , how to connect to databases and do DDL and DML queries'''
+
 import sqlite3
 from  tabulate import tabulate
 
