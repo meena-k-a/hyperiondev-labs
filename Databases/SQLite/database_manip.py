@@ -60,3 +60,6 @@ records = cursor.execute('select * from python_programming').fetchall()
 print("All records after changing grades of all people with an id below than 55 ")
 tabular_view(records)
 db.commit()
+
+# close database connection at the end
+db.close()
