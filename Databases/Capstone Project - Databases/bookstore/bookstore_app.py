@@ -46,17 +46,25 @@ def get_last_row_id():
 
 # Updating book's Title/Author/quantity   
 def  update_book_info():
+    id_match = False
     print('Book details will be updated using book ID')
     print('which book details you want to change')        
-    book_id = get_int_input("Book ID : ") 
-    print("Enter the details of book")
-    new_book_title = get_not_null_input("Book Title : ")
-    new_book_author = get_not_null_input("Book Author : ")
-    new_book_qty=get_int_input("Book Quantity : ")
-    cursor.execute('''update books set Title = ?, Author = ?, Quantity = ? 
-                    where ID = ?''',(new_book_title,new_book_author,new_book_qty,book_id))
-    db.commit()
-    
+    given_book_id = get_int_input("Book ID : ") 
+    all_books_ids =cursor.execute('''Select * from books where id = ?''',(given_book_id,)).fetchone()
+    #print(all_books_ids)
+    #for given_book_id in all_books_ids:
+    #    id_present = True
+    if all_books_ids is not None:
+        print("Enter the details of book")
+        new_book_title = get_not_null_input("Book Title : ")
+        new_book_author = get_not_null_input("Book Author : ")
+        new_book_qty=get_int_input("Book Quantity : ")
+        cursor.execute("update books set Title = ?, Author = ?, Quantity = ? where ID = ? ",(new_book_title, new_book_author, new_book_qty, given_book_id))
+        db.commit()
+        view_all_records()
+    else:    
+        print("The Given Book ID is Not present in the database")
+
 # definition to view  all records in tabular format
 def view_all_records():
     records = cursor.execute('select * from books') 
@@ -111,7 +119,7 @@ while True:
         view_all_records()
     elif choice == 2: # update book by ID 
         update_book_info()
-        view_all_records()
+        
     elif choice == 3:
         pass
     elif choice == 4:
