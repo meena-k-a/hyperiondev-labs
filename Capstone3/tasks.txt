@@ -1,0 +1,7 @@
+﻿admin, support, Support End User, 17 01 2023, 18 Apr 2022, No
+admin, support, Support End User, 17 Jan 2023, 28 Jan 2023, yes
+Krishna, support, Support End User, 17 Jan 2023, 18 Jan 2024, No
+admin, Assign initial tasks, Use task_manager.py to assign each team member with appropriate tasks, 08 01 2023, 18 Jan 2023, Yes
+hari, Register users with task_manager.py, Use task_manager.py to add the usernames and passwords for all team members that will be using this program, 08 Jan 2023, 12 Jan 2023, no
+sue, Job1 title, Job1 desc, 20 Jan 2023, 02 Feb 2023, no
+admin, title test Job, test job, 23 Jan 2023, 03 feb 2023, no
