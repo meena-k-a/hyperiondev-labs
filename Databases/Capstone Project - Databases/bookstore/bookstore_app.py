@@ -46,14 +46,11 @@ def get_last_row_id():
 
 # Updating book's Title/Author/quantity   
 def  update_book_info():
-    id_match = False
-    print('Book details will be updated using book ID')
-    print('which book details you want to change')        
+    print('''Book details will be updated using book ID
+        which book details you want to change''')        
     given_book_id = get_int_input("Book ID : ") 
+    # Check the given id is valid and present in data base 
     all_books_ids =cursor.execute('''Select * from books where id = ?''',(given_book_id,)).fetchone()
-    #print(all_books_ids)
-    #for given_book_id in all_books_ids:
-    #    id_present = True
     if all_books_ids is not None:
         print("Enter the details of book")
         new_book_title = get_not_null_input("Book Title : ")
@@ -64,6 +61,47 @@ def  update_book_info():
         view_all_records()
     else:    
         print("The Given Book ID is Not present in the database")
+
+# Delete a book by Title
+def delete_book():
+    print("Here we can delete book by title.")
+    given_book_title = get_not_null_input("Book Title : ")
+    search_book_title = cursor.execute('''select * from books where title = ?''',(given_book_title,)).fetchone()
+    if search_book_title is not None:
+        cursor.execute('Delete from books where title = ?',(given_book_title,))
+        db.commit()
+        view_all_records()
+    else :
+        print(f" No such book as {given_book_title} in Database")
+
+# Search a book
+def search_book():
+    result = None
+    search_choice = get_int_input('''\t\t\t Choose one of the following option
+                                    1 - Search by Id
+                                    2- Search by Title
+                                    3 - search by Author
+                                    4 - search by Quantity
+                                    : ''')
+    if search_choice == 1: # Search by Id
+        book_id = get_int_input("Book ID : ")
+        result = cursor.execute('''select * from books where id = ? ''',(book_id,)).fetchall()
+    elif search_choice == 2: # Search by Title
+        book_title = get_not_null_input("Book Title : ")
+        result = cursor.execute('''select * from books where title = ? ''',(book_title,)).fetchall()
+    elif search_choice == 3: # search by Author
+        author_name = get_not_null_input("Book Author : ")
+        result = cursor.execute('''select * from books where author = ? ''',(author_name,)).fetchall()
+    elif search_choice == 4: # search by quantity
+        book_qty = get_not_null_input("Book Quantity : ")
+        result = cursor.execute('''select * from books where quantity = ? ''',(book_qty,)).fetchall()  
+    else:
+        print("Wrong Choice\n")
+    if result is not None:    
+        col_names = ['ID','Title','Author','Quantity']
+        print(tabulate(result,col_names))
+    else:
+        print("No Search Results")    
 
 # definition to view  all records in tabular format
 def view_all_records():
@@ -119,11 +157,10 @@ while True:
         view_all_records()
     elif choice == 2: # update book by ID 
         update_book_info()
-        
     elif choice == 3:
-        pass
+        delete_book()
     elif choice == 4:
-        pass
+        search_book()
     elif choice > 4 :
         print ("Invalid Choice !")
         continue
