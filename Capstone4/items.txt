@@ -1,0 +1,4 @@
+Barcode,label,price,quantity
+11111,sdffdg,200,12
+2222,efddd,300,90
+3333,erer,400,34
