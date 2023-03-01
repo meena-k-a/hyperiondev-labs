@@ -1,0 +1,72 @@
+﻿		Users OVERVIEW
+Total Number of users registered	:	7
+-----------------------------------------------------------------------------------------
+admin:	The total number of tasks assigned to admin is 4.
+
+            The percentage of the total number of tasks assigned to admin is 57.14%.
+
+            The percentage of tasks assigned to admin that have been completed is 42.86%.
+
+            The percentage of tasks still to be completed by admin is 28.57%.
+
+            The percentage of incomplete and overdue tasks assigned to admin is 14.29%.
+-----------------------------------------------------------------------------------------
+employeeA:	The total number of tasks assigned to employeeA is 0.
+
+            The percentage of the total number of tasks assigned to employeeA is 0.0%.
+
+            The percentage of tasks assigned to employeeA that have been completed is 100.0%.
+
+            The percentage of tasks still to be completed by employeeA is 0.0%.
+
+            The percentage of incomplete and overdue tasks assigned to employeeA is 0.0%.
+-----------------------------------------------------------------------------------------
+hari:	The total number of tasks assigned to hari is 1.
+
+            The percentage of the total number of tasks assigned to hari is 14.29%.
+
+            The percentage of tasks assigned to hari that have been completed is 85.71%.
+
+            The percentage of tasks still to be completed by hari is 14.29%.
+
+            The percentage of incomplete and overdue tasks assigned to hari is 14.29%.
+-----------------------------------------------------------------------------------------
+Krishna:	The total number of tasks assigned to Krishna is 1.
+
+            The percentage of the total number of tasks assigned to Krishna is 14.29%.
+
+            The percentage of tasks assigned to Krishna that have been completed is 85.71%.
+
+            The percentage of tasks still to be completed by Krishna is 14.29%.
+
+            The percentage of incomplete and overdue tasks assigned to Krishna is 0.0%.
+-----------------------------------------------------------------------------------------
+Jony:	The total number of tasks assigned to Jony is 0.
+
+            The percentage of the total number of tasks assigned to Jony is 0.0%.
+
+            The percentage of tasks assigned to Jony that have been completed is 100.0%.
+
+            The percentage of tasks still to be completed by Jony is 0.0%.
+
+            The percentage of incomplete and overdue tasks assigned to Jony is 0.0%.
+-----------------------------------------------------------------------------------------
+sue:	The total number of tasks assigned to sue is 1.
+
+            The percentage of the total number of tasks assigned to sue is 14.29%.
+
+            The percentage of tasks assigned to sue that have been completed is 85.71%.
+
+            The percentage of tasks still to be completed by sue is 14.29%.
+
+            The percentage of incomplete and overdue tasks assigned to sue is 0.0%.
+-----------------------------------------------------------------------------------------
+managerA:	The total number of tasks assigned to managerA is 0.
+
+            The percentage of the total number of tasks assigned to managerA is 0.0%.
+
+            The percentage of tasks assigned to managerA that have been completed is 100.0%.
+
+            The percentage of tasks still to be completed by managerA is 0.0%.
+
+            The percentage of incomplete and overdue tasks assigned to managerA is 0.0%.
