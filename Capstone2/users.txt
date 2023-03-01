@@ -1,0 +1,14 @@
+adminA, admin1
+managerA, manager1
+managerB, manager2
+employeeA, employee1
+employeeB, employee2
+managerC, manager3
+employeeC, employee3
+managerD, manager4
+employeeD, employee4
+employeeE, employee5
+trgg, fgf
+hari, radha
+hari, radha
+Jony, Jony1
